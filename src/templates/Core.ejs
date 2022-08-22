@@ -1,0 +1,18 @@
+import Head from 'next/head'
+
+const Core = ({ children }) => {
+  return (
+    <>
+
+      <Head>
+        <title>Título do Site</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <meta name='description' content='App <% props.projeto %> construído em Next.js' />
+        <meta name='author' content='Sildeman Dourado Araujo' />
+      </Head>
+      <div>{children}</div>
+    </>
+  )
+}
+
+export default Core

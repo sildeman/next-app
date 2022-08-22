@@ -1,0 +1,9 @@
+FROM atf.intranet.bb.com.br:5001/bb/lnx/lnx-node_15.9.0-alpine3.13:1.2.1
+
+WORKDIR /app
+
+COPY . .
+
+EXPOSE 3000
+
+CMD [ "npm", "start" ]

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@commands/*": ["src/commands/*"],
+      "@extensions/*": ["src/extensions/*"],
+      "@helpers/*": ["src/helpers/*"]
+    }
+  }
+}
